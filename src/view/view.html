@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encurtador de URL</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="view.js" defer></script> <!-- Usa defer para carregar o script após o DOM -->
+</head>
+<body>
+<div class="container">
+    <h2>Encurtador de URL</h2>
+    <form id="urlForm">
+        <input type="url" id="originalUrl" placeholder="Digite a URL para encurtar" required>
+        <button type="submit">Encurtar URL</button>
+    </form>
+    <div class="short-url" id="shortUrl" ></div>
+</div>
+</body>
+</html>
